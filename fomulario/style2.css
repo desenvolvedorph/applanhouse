@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.13em;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Rubik Distressed', cursive;
+    letter-spacing: 5px;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #0657a2;
+}
+
+body{
+    background-color: #0586ff;
+}
+
+main{
+    margin: auto;
+    width: 1200px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#campo{
+    text-align: center;
+    padding: 30px;
+    margin: 50px;
+    height: 25vh;
+    width: 88%;
+    color: #0657a2;
+}
+
+input{
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border: 2px solid #317ac0;
+}
+
+input::placeholder{
+    background-color: #daebfb;
+    padding: 10px;
+    color: #217cd1ac;
+}
+
+.div2{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.botao{
+    border-radius: 10px;
+    background-color: #0586ff;
+    color: white;
+    border: 2px solid #0657a2;
+    padding: 20px;
+}
+
+.direita{
+    float:right;
+}
+
+.esquerda{
+    float: left;
+}
+
+.sexo{
+    border-radius: 5px;
+    border: 2px solid #0657a2;
+    background-color: #daebfb;
+}
