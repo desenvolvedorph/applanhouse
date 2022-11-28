@@ -5,14 +5,15 @@
     padding: 0;
 }
 
-html, body{
+/* html, body{
     height: 100vh;
     width: 100vw;
     background-color: black;
-}
+} */
 
 body{
-    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    /* background: url("../imagens/fundo-madeira.jpg") no-repeat top center; */
+    background-image: linear-gradient(to top, rgb(118, 13, 95), rgb(55, 142, 255));
     background-size: cover;
     background-attachment: fixed;
 }
@@ -22,7 +23,7 @@ main{
     position: relative;
 }
 
-#telefone{
+#monitor{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,11 +42,18 @@ main{
     height: 445px;
 }
 
-#redes-sociais{
-    text-align: right;
+.redes-sociais{
+    float: left;
+    margin-top: 5vh;
+    margin-left: 3vw;
 }
 
-#redes-sociais img{
+.dois{
+    float: right;
+    margin-right: 3vw;
+}
+
+.redes-sociais img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -53,9 +61,16 @@ main{
     box-sizing: border-box;
 }
 
-#redes-sociais img:hover{
+.redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.611);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
     transition: transform 0.3s, border 0.4s;
+}
+
+@media screen and (min-width: 1900px){
+    .redes-sociais{
+        margin-top: 15vh;
+    }
+    
 }
