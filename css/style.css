@@ -12,10 +12,11 @@
 } */
 
 body{
-    /* background: url("../imagens/fundo-madeira.jpg") no-repeat top center; */
+    /* background: url("../imagens/teste.png") no-repeat top center; */
     background-image: linear-gradient(to top, rgb(118, 13, 95), rgb(55, 142, 255));
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom;
 }
 
 main{
@@ -42,7 +43,7 @@ main{
     height: 445px;
 }
 
-.redes-sociais{
+.navegacao{
     float: left;
     margin-top: 5vh;
     margin-left: 3vw;
@@ -53,15 +54,15 @@ main{
     margin-right: 3vw;
 }
 
-.redes-sociais img{
-    width: 50px;
+.navegacao img{
+    width: 70px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.399);
     box-sizing: border-box;
 }
 
-.redes-sociais img:hover{
+.navegacao img:hover{
     border: 2px solid rgba(255, 255, 255, 0.611);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
@@ -69,7 +70,7 @@ main{
 }
 
 @media screen and (min-width: 1900px){
-    .redes-sociais{
+    .navegacao{
         margin-top: 15vh;
     }
     
